@@ -1,0 +1,75 @@
+ <!DOCTYPE html>
+ <html lang="pt-br">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agencia de viagens</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+ </head>
+ <body>
+    <!-- tag semantica para cabecalho -->
+    <header>
+
+        <h1 id="Inicio"> Agencia de viagens </h1>
+        <!-- id volta para o inicio na pagina -->
+        <!-- tag semnatica para barra de links de navegação -->
+         <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#destinos">Destinos</a>
+            <a href="#pacotes">Pacotes</a>
+            <a href="#contatos">Contatos</a>
+         </nav>
+
+    </header>
+    
+     <div class="container">
+        <!-- tag semnatica para informações na lateral -->
+        <!-- tag semantica para Destino populares -->
+        <aside class="secondary">
+            <h2 class="Destinos">Destinos populares</h2>
+            <ul>
+                <li><img src="img/paris.jpg" alt="paris">Prais, FR</li>
+                <li><img src="img/ny.jpg" alt="New york">New york, USA</li>
+                <li><img src="img/riojaneiro.jpg" alt="Rio de janeiro"></li>
+                <li><img src="img/roma.jpg" alt="Roma">Roma, IT</li>
+                <li><img src="img/tokio.jpg" alt="Tokio">Tokio, JP</li>
+            </ul>
+
+        
+         <!-- atg semantica para sessoes extras -->
+            <section class="main-content">
+                <h2 class="subtittle">Encontre o seu destino</h2>
+                <form>
+                    <input type="text" placeholder= "Digite o seu destino" required>
+                    <input type="date"  required>
+                    <button type="submit">Procurar</button>
+                </form>
+            </section>
+      
+        <aside class="secondary">
+            <h2 id="pacotes">Pacotes em promoção</h2>
+            <ul>
+                <li><img src="img/cancun.jpg" alt="Cancun">
+                    <b>Praias paradisiacas</b>
+                    <br>Pacotes para Cancun - 5 dias por 3 de R$ 2.500
+                </li>
+                <li><img src="img/london.jpg" alt="Londres">
+                    <b>Intercambio Britanico</b>
+                    <br> Pacotes para Londres - 7 dias 2x de R$ 4.000
+                </li>
+                <li><img src="img/noronha.jpg" alt="Fernando de Noronha">
+                    <b></b>
+                    <br> Pacotes para Fernando de Noronha - 4 dias por R$ 3.200
+                </li>
+            </ul>
+        </aside>
+     </div>
+
+     <!-- tag semnatica para rodapé -->
+     <footer>
+        <p id="contatos">&copy; 2025 Agencia de viagens - contato: contato@agenciadeviagens.com</p>
+     </footer>
+ </body>
+ </html>
